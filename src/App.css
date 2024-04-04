@@ -7,6 +7,33 @@
   pointer-events: none;
 }
 
+.button1 {
+padding: 0px 7px;
+background-color: #289533;
+color: #fff;
+font-size: 20px;
+border: none;
+border-radius: 50%; /* Make the border-radius 50% to create a round shape */
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.custom-dropdown-btn {
+background-color: #aaec9c; /* Blue background color */
+color: #fbfafa;
+font-size: 18px;
+padding: 5px 10px; }
+
+.custom-dropdown-menu {
+    /* Add custom styles for the dropdown button and menu */
+    background-color: #aaec9c;
+    color: black;
+    font-size: 16px;
+    padding: 8px 20px;
+}
+.custom-dropdown-menu:active {
+  background-color: #26a43d;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +62,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+};
